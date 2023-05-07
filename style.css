@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -167,7 +171,7 @@ section .title::after {
 }
 
 .about, .services, 
-.skills, .business, .contact {
+.skills, .business, .contact, footer {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -177,7 +181,7 @@ section .title::after {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /* sobre */
@@ -361,6 +365,10 @@ section .title::after {
 
 /* sessão contato */
 
+.contact .title::after {
+    content: "Fale comigo";
+}
+
 .contact .contact-content .column {
     width: calc(50% - 30px);
 }
@@ -375,12 +383,92 @@ section .title::after {
     margin-bottom: 10px;
 }
 
+.contact .contact-content .left .icons {
+    margin: 10px 0;
+}
 
+.contact .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
 
+.contact .contact-content .row .info {
+    margin-left: 30px;
+}
+
+.contact .contact-content .row .info .head {
+    font-weight: 500;
+}
+
+.contact .contact-content .row .info .sub-title {
+    color: #222;
+}
+
+.contact .contact-content .row ion-icon {
+    font-size: 25px;
+    color: #00804b;
+}
+
+.contact .right form .fields {
+    display: flexbox;
+}
+
+.contact .column-right form .fields input,
+.contact .column-right form .textarea textarea{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'roboto', sans-serif;
+}
+
+.contact .button {
+    width: 170px;
+    height: 47px;
+}
+
+.contact .button button {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #00804b;
+    background: #00804b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact .button button:hover{
+    color: #00804b;
+    background: none;
+}
+
+/* footer */
+
+footer {
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a {
+    color: #00804b;
+    text-decoration: none;
+}
+
+footer span a:hover{
+    text-decoration: underline;
+}
 
 /* responsive */
 
-@media (max-width: 1104px){
+/* @media (max-width: 1104px){
     .navbar .max-width {
         margin-left: 0;
     }

@@ -13,12 +13,12 @@
             <div class="logo">
                 <a href="#">Port<span>fólio</span></a></div>
                 <ul class="menu">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Empresa</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#skills">Especialidades</a></li>
+                    <li><a href="#business">Empresa</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
                 <div class="menu-btn">
                     <ion-icon name="menu-outline"></ion-icon>
@@ -33,7 +33,7 @@
             <div class="home-content">
                 <div class="text-1">Ola, sou a</div>
                 <div class="text-2">Fabielle Andrade</div>
-                <div class="text-3">sou <span>Body Piercer</span></div>
+                <div class="text-3">sou <span class="typing"></span></div>
                 <a href="#">Contatar-me</a>
             </div>
         </div>
@@ -49,9 +49,9 @@
                     <img src="./img/imagem1.png" alt="">
                 </div>
                 <div class="column-right">
-                    <div class="text">Sou Fabielle e sou <span>Body Piercer</span></div>
+                    <div class="text">Sou Fabielle e sou <span class="typing-2"></span></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quod libero eum expedita itaque accusantium officiis, nam officia, repellat, labore dolores dicta iusto voluptates! Nihil aperiam repudiandae sit tempore dicta?</p>
-                    <a href="#">Download CV</a>
+                    <a href="/doc/Currículo - Developer Jr.pdf">Download Currículo</a>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
                 <div class="card">
                     <div class="box">
                         <ion-icon name="person-outline"></ion-icon>
-                        <div class="text">Jovem Aprendiz</div>
+                        <div class="text">Assistente Financeira</div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, maxime voluptatum fuga, veritatis dolores ipsum, at sed ratione rem repellat accusantium consequuntur excepturi unde! Quaerat provident repudiandae velit possimus tenetur?</p>
                     </div>
                 </div>
@@ -126,41 +126,77 @@
         <div class="max-width">
             <h2 class="title">Contato</h2>
             <div class="contact-content">
+                <!--Column Left-->
                 <div class="column left">
                     <div class="text">Fale comigo</div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ratione placeat, temporibus modi voluptate incidunt numquam laboriosam labore eos quam non, reiciendis consequuntur accusamus! Dolorem cumque omnis aliquid est nam.</p>
-                </div>
-                <div class="icons">
-                    <div class="row">
-                        <ion-icon name="person-outline"></ion-icon>
-                        <div class="info">
-                            <div class="head">Nome</div>
-                            <div class="sub-title">ksaidj</div>
+                    <div class="icons">
+                        <div class="row">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Nome</div>
+                                <div class="sub-title">Fabielle de Lima Andrade</div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <ion-icon name="earth-outline"></ion-icon>
                         <div class="info">
                             <div class="head">Endereço</div>
-                            <div class="sub-title">sc</div>
+                            <div class="sub-title">São José - SC</div>
                         </div>
                     </div>
                     <div class="row">
                         <ion-icon name="mail-outline"></ion-icon>
                         <div class="info">
-                            <div class="head">email</div>
-                            <div class="sub-title">asds@gmail.com</div>
+                            <div class="head">E-mail</div>
+                            <div class="sub-title">fabielledelima@gmail.com</div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+                    <!--Column Right-->
+
+                    <div class="column-right">
+                        <div class="text">
+                            <form action="#">
+                                <div class="fields">
+                                    <div class="name">
+                                        <input type="text" placeholder="Nome" required>
+                                    </div>
+                                    <div class="fields">
+                                        <input type="email" placeholder="E-mail" required>
+                                    </div>
+                                    <div class="fields">
+                                        <div class="obs">
+                                            <textarea cols="30" rows="10" placeholder="Escreva..." required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="button">
+                                        <button>Enviar</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div> 
+                    </div>
+                </div>   
+            </div> 
         </div>
     </section>
+
+    <!--Footer-->
+
+    <footer>
+        <span> Criado por <a href="#">Front</a>| Todos os direitos reservado 2023</span>
+    </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script> src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
 </body>
 </html>

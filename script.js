@@ -6,4 +6,19 @@
             $('.navbar').removeClass("sticky");
         }
     });
+    
+    var typed = new Typed(".typing", {
+        strings:["Bodypiercer","Developer","Assistente Financeira"],
+        typeSpeed:100,
+        backSpeed:60,
+        loop:true
+    });
+
+    var typed = new Typed(".typing-2", {
+        strings:["Bodypiercer","Developer","Assistente Financeira"],
+        typeSpeed:100,
+        backSpeed:60,
+        loop:true
+    });
+
 });
