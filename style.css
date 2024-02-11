@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
 
-html{
-    scroll-behavior: smooth;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -61,10 +57,9 @@ html{
 
 .navbar .menu li a {
     color: #fff;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     margin-left: 25px;
-    transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover {
@@ -288,7 +283,7 @@ section .title::after {
 /* sessão especialidades */
 
 .skills .title::after {
-    content: "Que faço";
+    content: "Repositórios";
 }
 
 .skills .skills-content .left p {
@@ -491,13 +486,13 @@ footer span a:hover{
     }
     
     .navbar .menu{
-        position: fixed;
-        width: 50%;
-        height: 50vh;
-        left: 0;
+        position: absolute;
+        font-size: 10vh;
+        width: 20%;
+        height: 100vh;
         top: 0;
         background: #000000af;
-        padding-top: 50px;
+        padding-top: 15%;
         text-align: center;
         transition: all 0.3s ease;
     }
