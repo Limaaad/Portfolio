@@ -165,12 +165,12 @@ section .title::after {
 }
 
 .about, .services, 
-.skills, .business, .contact, footer {
+.projects, .business, .contact, footer {
     font-family: 'Roboto', sans-serif;
 }
 
 .about, .about-content, .services, 
-.serv-content, .skills-content,
+.serv-content, .projects-content,
 .contact, .contact-content {
     display: flex;
     flex-wrap: wrap;
@@ -280,17 +280,17 @@ section .title::after {
     margin: 10px 0 7px 0;
 }
 
-/* sessão especialidades */
+/* sessão projetos */
 
-.skills .title::after {
+.projects .title::after {
     content: "Repositórios";
 }
 
-.skills .skills-content .left p {
+.projects .projects-content .left p {
     text-align: justify;
 }
 
-.skills .skills-content a {
+.projects .projects-content a {
     display: inline-block;
     background: #D5A90C;
     color: #fff;
@@ -303,7 +303,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.skills .skills-content a:hover {
+.projects .projects-content a:hover {
     color: #D5A90C;
     background: none;
 }
