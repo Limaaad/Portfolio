@@ -162,8 +162,6 @@ section .title::after {
     transform: translateX(-50%);
 }
 
-.about, .experience, 
-
 /* Sessão Empresa */
 
 .business .title::after {
@@ -212,7 +210,8 @@ section .title::after {
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.projects,, .contact, footer {
+
+.projects, .contact, footer {
     font-family: 'Roboto', sans-serif;
 }
 
