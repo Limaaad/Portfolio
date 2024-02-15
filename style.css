@@ -115,14 +115,7 @@
     background: none;
 }
 
-/* menu-mobile */
 
-.menu-btn {
-    color: #fff;
-    font-size: 26px;
-    cursor: pointer;
-    display: none;
-}
 
 /* todos os codigos similares */
 
@@ -232,6 +225,8 @@ section .title::after {
 .about .about-content .column-left {
     width: 45%;
 }
+
+
 
 .about .about-content .column-right {
     width: 50%;
@@ -378,6 +373,15 @@ footer span a {
 
 footer span a:hover{
     text-decoration: underline;
+}
+
+/* menu-mobile */
+
+.menu-btn {
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
 }
 
 /* responsive */
