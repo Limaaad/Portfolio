@@ -23,8 +23,8 @@
     transition: all 0.3s ease;
 }
 
-.navbar .sticky {
-    background-color: #222;
+.navbar.sticky {
+    background-color: #000000af;
 }
 
 .navbar .max-width {
@@ -44,7 +44,7 @@
     transition: all 0.3 ease;
 }
 
-.navbar .sticky .logo a span {
+.navbar.sticky .logo a span {
     color: #fff;
 }
 
