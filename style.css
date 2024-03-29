@@ -17,6 +17,27 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: black;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #000000;
+    transform: scale(1.10);
+}
+
 /* Header */
 
 header{
@@ -49,17 +70,37 @@ header nav ul li{
     padding: 0 40px;
 }
 
-header .btn-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: black;
-    color: #fff;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
+/* Topo do site */
+
+section.topo-do-site{
+    padding: 40px 4%;
 }
 
-header .btn-contato button:hover{
-    box-shadow: 0px 0px 8px #000000;
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.topo-do-site .txt-topo-site p{
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutter 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutter{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
 }
