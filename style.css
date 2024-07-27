@@ -114,6 +114,7 @@ section.topo-do-site .flex{
 
 section.especialidades{
     padding: 90px 4%;
+    box-shadow: 0 0 40px 10px #00000038;
 }
 
 section.especialidades .flex{
@@ -145,6 +146,7 @@ section.especialidades .flex{
 
 section.sobre{
     padding: 90px 4%;
+    box-shadow: 0 0 40px 10px #00000038;
 }
 
 section.sobre .flex{
