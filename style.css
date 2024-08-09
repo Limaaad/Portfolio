@@ -209,7 +209,6 @@ section.portfolio .flex{
     transform: scale(1.05);
     transition: 0.3s;
 }
-<<<<<<< HEAD
 
 .overlay{
     position: absolute;
@@ -232,5 +231,3 @@ section.portfolio .flex{
 .overlay:hover{
     opacity: 1;
 }
-=======
->>>>>>> 92811f4c0d43e13db444e106bb63e4dbdc6331e5
